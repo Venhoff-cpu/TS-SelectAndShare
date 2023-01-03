@@ -11,11 +11,17 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.tsx?$/,
+        test: /\.ts?$/,
         use: 'ts-loader',
         exclude: /node_modules/
       }
     ]
+  },
+  // Solves the Cannot Get/ issue
+  devServer: {
+      static: {
+          directory: path.join(__dirname, './'),
+      }
   },
   resolve: {
     extensions: ['.ts', '.js']
