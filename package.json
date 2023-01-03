@@ -11,7 +11,7 @@
     "typescript",
     "course"
   ],
-  "author": "Maximilian Schwarzmüller",
+  "author": "Krzysztof Pacuszka",
   "license": "ISC",
   "devDependencies": {
     "ts-loader": "^6.2.1",
